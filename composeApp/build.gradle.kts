@@ -116,7 +116,7 @@ kotlin {
             }
         }
 
-        appleMain {
+        iosMain {
             dependsOn(skiaMain)
             dependencies {
                 implementation(libs.ktor.darwin)

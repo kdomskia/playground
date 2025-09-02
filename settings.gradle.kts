@@ -17,6 +17,7 @@ pluginManagement {
 
 dependencyResolutionManagement {
     repositories {
+        mavenLocal()
         google {
             mavenContent {
                 includeGroupAndSubgroups("androidx")
@@ -27,7 +28,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-includeBuild("../kdomskia")
 
 include(":composeApp")
