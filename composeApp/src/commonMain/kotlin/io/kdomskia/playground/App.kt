@@ -1312,7 +1312,6 @@ fun TopAppBarSample() {
                     )
                 }
             },
-            titleHorizontalAlignment = Alignment.Start,
             windowInsets = WindowInsets(),
             colors = TopAppBarDefaults.topAppBarColors().copy(
                 containerColor = MaterialTheme.colorScheme.secondaryContainer,
